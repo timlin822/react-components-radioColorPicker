@@ -1,0 +1,47 @@
+.radio-group{
+    display: flex;
+    align-items: center;
+}
+.radio-group input[type="radio"]{
+    display: none;
+}
+.radio-border{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.radio-color{
+    cursor: pointer;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.radio-group input[type="radio"]:checked+.radio-border{
+    border: 2px solid #003366;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.text{
+    margin-top: 50px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #151515;
+}
